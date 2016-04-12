@@ -1,5 +1,3 @@
-# hello world
-
 import random
 
 korean = {'Jogeum' : ['GomTangEee', 'Myunga', 'JangWon'], 'Jotna' : ['BonChon', 'BBQ', 'Chugajib']}
