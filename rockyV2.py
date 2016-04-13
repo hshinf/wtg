@@ -1,10 +1,12 @@
 import random
 
+version = '1.0'
+
 korean = {'Jogeum' : ['GomTangEee', 'Myunga', 'JangWon'], 'Jotna' : ['BonChon', 'BBQ', 'Chugajib']}
 american = {'Jogeum' : ['Ihop', 'SevenEleven', 'Mcdonald'], 'Jotna' : ['GoldenCorral', 'FiveGuys','SmokeDatGrass']}
 other = {'Jogeum' : ['Pho', 'Redo', 'PandaExpress'], 'Jotna' : ['ManassasHibachi', 'ChantillyHibachi', 'Oolalala']}
 
-print('Welcome To Rocky Rambo Random Food Generator v.1\n')
+print('Welcome To Rocky Rambo Random Food Generator ' + version)
 n = input('Select korean, american, or other\n')
 
 while True:
