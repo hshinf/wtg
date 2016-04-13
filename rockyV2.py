@@ -4,15 +4,15 @@ korean = {'Jogeum' : ['GomTangEee', 'Myunga', 'JangWon'], 'Jotna' : ['BonChon', 
 american = {'Jogeum' : ['Ihop', 'SevenEleven', 'Mcdonald'], 'Jotna' : ['GoldenCorral', 'FiveGuys','SmokeDatGrass']}
 other = {'Jogeum' : ['Pho', 'Redo', 'PandaExpress'], 'Jotna' : ['ManassasHibachi', 'ChantillyHibachi', 'Oolalala']}
 
-print('Welcome To Rocky Rambo Random Food Generator v.1')
-n = input('Select korean, american, or other')
+print('Welcome To Rocky Rambo Random Food Generator v.1\n')
+n = input('Select korean, american, or other\n')
 
 while True:
     if n == '':
-        print('DumbFuck type korean or american or other')
-        n = input('Select korean, american, or other')
+        print('DumbFuck type korean or american or other\n')
+        n = input('Select korean, american, or other\n')
     else: 
-        x = input('Hunger Level: jogeum or jotna')
+        x = input('Hunger Level: jogeum or jotna\n')
         while True:
     
             if n == 'korean' and x == 'jogeum' :
