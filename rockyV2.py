@@ -2,9 +2,9 @@ import random
 
 version = '2.0'
 
-korean = {'Jogeum' : ['GomTangEee', 'Myunga', 'JangWon'], 'Jotna' : ['BonChon', 'BBQ', 'Chugajib']}
-american = {'Jogeum' : ['Ihop', 'SevenEleven', 'Mcdonald'], 'Jotna' : ['GoldenCorral', 'FiveGuys','SmokeDatGrass']}
-other = {'Jogeum' : ['Pho', 'Redo', 'PandaExpress'], 'Jotna' : ['ManassasHibachi', 'ChantillyHibachi', 'Oolalala']}
+korean = {'Jogeum' : ['Gom Tang Eee', 'Myunga', 'JangWon'], 'Jotna' : ['Bon Chon', 'BBQ', 'Chugajib']}
+american = {'Jogeum' : ['Ihop', '7-11', 'Mcdonald'], 'Jotna' : ['Golden Corral', 'Five Guys','Smoke Dat Grass', 'Ciro\'s Pizza']}
+other = {'Jogeum' : ['Pho', 'Redo', 'Panda Express'], 'Jotna' : ['Manassas Hibachi', 'Chantilly Hibachi', 'Oolalala']}
 
 print('Welcome To Rocky Rambo Random Food Generator ' + version)
 n = input('Select korean, american, or other\n')
